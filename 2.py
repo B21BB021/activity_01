@@ -14,7 +14,7 @@ def leaky_relu(x, alpha=0.01):
 def tanh(x):
     return np.tanh(x)
 
-# Generate data
+# Generate datagit s
 x = np.linspace(-5, 5, 100)
 y_sigmoid = sigmoid(x)
 y_relu = relu(x)
